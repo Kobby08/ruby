@@ -12,9 +12,11 @@ def find_pivot(array_value)
     #condition to check that the value of sum_left is equal to the value of the total_sum after each iteration
     if left_sum == total_sum
       return i
+    else
+      return -1
     end
   end
-  return -1
+
 end
 
 
